@@ -1,0 +1,10 @@
+.our-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
