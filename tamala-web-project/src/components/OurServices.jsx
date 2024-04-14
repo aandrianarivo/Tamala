@@ -1,6 +1,6 @@
 import "./OurServices.css";
 import chapeau from "../assets/chapeau.jpg";
-import pot from "../assets/pot.jpg";
+import pot from "../assets/gros-plan-femme-peinture-pot-argile.jpg";
 import CardComponent from "./Card/Card";
 export default function OurServices() {
   const header1 = <img alt="Card" src={chapeau} />;
