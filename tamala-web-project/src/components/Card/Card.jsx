@@ -9,7 +9,7 @@ export default function CardComponent({ footer, header }) {
         subTitle="Card subtitle"
         footer={footer}
         header={header}
-        className="md:w-25rem"
+        className="md:w-25rem sm:w-full"
       >
         <p className="m-0">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore

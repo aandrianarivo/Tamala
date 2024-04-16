@@ -9,7 +9,7 @@ export default function OurServices() {
   return (
     <div className="our-services w-full mt-20">
       <h1 className="text-5xl text-grey-200">Our services</h1>
-      <div className="card-container flex space-between mt-10">
+      <div className="card-container flex space-between mt-10 max-sm:flex max-sm:flex-col max-sm:space-between max-sm:justify-center">
         <CardComponent header={header1} footer={footer} />
         <CardComponent header={header2} footer={footer} />
       </div>
