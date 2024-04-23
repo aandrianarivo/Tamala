@@ -1,6 +1,11 @@
 import "./AboutUs.css";
 import CardPerso from "./Card/CardPerso";
 export default function AboutUs() {
+  const title = "Our mission 1";
+  const content =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis placeat veniam, minus omnis laboriosam tempore accusantium esse eligendi reiciendis quidem, beatae dolorem inventore aliquid! Veniam ducimus eos voluptatibus corporis?";
+  const section = "#PILLAR 1";
+  const mission = "Valorize the artisanal";
   return (
     <div className="about-us w-full mt-20">
       <h1 className="text-5xl text-grey-200">About us</h1>
@@ -25,27 +30,12 @@ export default function AboutUs() {
         </p>
       </div>
       <div className="about-us-content">
-        <div className="item-about-us flex px-4 py-4">
-          <div className="header-content bg-gray-50 py-4 px-4">
-            <h3 className="text-bold text-gray-900/90 ">Our mission 1</h3>
-            <h2 className="py-8 text-gray-500">#PILLAR 1</h2>
-            <h1 className="py-2 text-bold text-gray-700 font-medium">
-              Valorize the artisanal
-            </h1>
-          </div>
-          <div className="content bg-gray-50 px-4 py-4 text-gray-700">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-              iste et excepturi, quidem dolorum doloremque iure quod itaque. Eum
-              ullam veritatis earum inventore cumque vero, numquam rem quaerat
-              facilis recusandae. Blanditiis omnis eos recusandae id soluta
-              eveniet, dolores saepe, alias reprehenderit laboriosam dolore
-              quam, ex obcaecati ullam maxime aperiam nihil dicta fuga assumenda
-              mollitia quisquam libero itaque possimus. Fugiat, at?
-            </p>
-          </div>
-        </div>
-        <CardPerso />
+        <CardPerso
+          title={title}
+          mission={mission}
+          content={content}
+          section={section}
+        />
       </div>
     </div>
   );

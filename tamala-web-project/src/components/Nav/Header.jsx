@@ -5,7 +5,7 @@ function Header() {
     <div>
       <Nav />
       <div
-        className=" w-full max-sm:h-min md:h-screen
+        className=" w-full max-sm:h-min md:h-1/2
         "
         style={{
           backgroundImage: `url(${backgroundImage})`,

@@ -11,9 +11,6 @@ export default function OurServices() {
     <div className="our-services w-full mt-20">
       <h1 className="text-5xl text-grey-200">Our services</h1>
       <div className="card-container flex space-between mt-10 max-sm:flex max-sm:flex-col max-sm:space-between max-sm:justify-center">
-        <span className="sm:hidden">sm</span>
-        <span className="hidden sm:visible md:hidden">md</span>
-        <span className="hidden sm:visible md:hidden">lg</span>
         <CardResponsive title={title1} imageurl={pot} content={content1} />
         <CardResponsive title={title2} imageurl={pot} content={content2} />
       </div>

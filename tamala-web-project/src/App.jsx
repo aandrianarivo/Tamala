@@ -5,9 +5,11 @@ import OurServices from "./components/OurServices";
 function App() {
   return (
     <>
-      <Header />
-      <OurServices />
-      <AboutUs />
+      <div className="bg-stone-100">
+        <Header />
+        <OurServices />
+        <AboutUs />
+      </div>
     </>
   );
 }
