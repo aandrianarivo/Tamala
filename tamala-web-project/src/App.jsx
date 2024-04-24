@@ -8,8 +8,12 @@ function App() {
     <>
       <div className="bg-stone-100">
         <Header />
-        <OurServices />
-        <AboutUs />
+        <div id="services">
+          <OurServices />
+        </div>
+        <div id="about">
+          <AboutUs />
+        </div>
         <Footer />
       </div>
     </>

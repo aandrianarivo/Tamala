@@ -13,7 +13,7 @@ function CardResponsive({ imageurl, title, content }) {
         <h5 className="text-2xl md:text-3xl font-medium mt-3 w-full">
           {title}
         </h5>
-        <p className="text-black-500/50 text-lg mt-3 w-full">{content}</p>
+        <p className="text-black/70 text-lg mt-3 w-full">{content}</p>
       </div>
     </div>
   );

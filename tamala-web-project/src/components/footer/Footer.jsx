@@ -1,8 +1,7 @@
-import { GoArrowRight } from "react-icons/go";
 import { CgCopyright } from "react-icons/cg";
 function Footer() {
   return (
-    <div className=" bg-stone-600 flex flex-col items-center justify-around py-10">
+    <div className=" bg-stone-700 flex flex-col items-center justify-around py-10">
       <div className="flex flex-col items-center">
         <p className="text-stone-100 text-2xl">Subscribe to our emails</p>
         <h5 className="text-stone-100 text-xs py-5 p-3">
@@ -16,9 +15,6 @@ function Footer() {
           className="w-full px-3 py-2 rounded-md border bg-inherit border-stone-300 focus:outline-none focus:border-stone-50 text-stone-50"
           placeholder="Email"
         />
-        <div className="absolute right-0 top-0 bottom-0 flex items-center px-2">
-          <GoArrowRight />
-        </div>
       </div>
       <div className="pt-7 flex items-center text-stone-50 text-xs ">
         <span className="text-stone-50">

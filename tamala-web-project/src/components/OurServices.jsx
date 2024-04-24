@@ -5,7 +5,8 @@ export default function OurServices() {
   const title1 = "My first card component";
   const title2 = "My second card component";
   const content1 = "Lorem ipsum dolor ?;";
-  const content2 = "Lorem ipsum dolor sit amet.";
+  const content2 =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus, inventore nihil alias commodi unde placeat ea. Tempora, aut reiciendis.";
 
   return (
     <div className="our-services w-full mt-20">

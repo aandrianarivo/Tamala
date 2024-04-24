@@ -3,10 +3,8 @@ import { FaBarsStaggered } from "react-icons/fa6";
 const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "SERVICE", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "BLOG'S", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "SERVICES", link: "#services" },
+    { name: "ABOUT", link: "#about" },
   ];
   let [open, setOpen] = useState(false);
   return (
