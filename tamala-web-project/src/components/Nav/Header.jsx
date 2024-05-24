@@ -3,7 +3,6 @@ import backgroundImage from "../../assets/beau-charpentier-travaillant-bois.jpg"
 function Header() {
   return (
     <div>
-      <Nav />
       <div
         className=" w-full max-sm:h-min md:h-1/2
         "
@@ -14,9 +13,8 @@ function Header() {
           backgroundRepeat: "no-repeat",
           minHeight: "380px",
         }}
-      >
-        {" "}
-      </div>
+      >      </div>
+      <Nav />
     </div>
   );
 }
