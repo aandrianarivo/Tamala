@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   let Links = [
     { name: "Discover", link: "/" },
-    { name: "About", link: "#services" },
-    { name: "Our service", link: "#about" },
+    { name: "About", link: "about" },
+    { name: "Our service", link: "services" },
     { name: "Contact us", link: "#contact" },
   ];
 
@@ -34,19 +35,19 @@ const Nav = () => {
                 onMouseEnter={() => link.name === "Discover" && setDropdownOpen(true)}
                 onMouseLeave={() => link.name === "Discover" && setDropdownOpen(false)}
               >
-                <a
-                  href={link.link}
+                <Link
+                  to={link.link}
                   className="text-gray-700 hover:text-gray-400 duration-500"
                 >
                   <strong>{link.name}</strong>
-                </a>
+                </Link>
                 {link.name === "Discover" && dropdownOpen && (
                   <ul className="absolute top-full left-0 bg-white shadow-lg mt-1 w-40">
                     <li className="px-4 py-2 hover:bg-gray-100">
-                      <a href="#option1">The artisants</a>
+                      <Link to="#option1">The artisants</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-100">
-                      <a href="#option2">The crafts</a>
+                      <Link to="#option2">The crafts</Link>
                     </li>
                   </ul>
                 )}
