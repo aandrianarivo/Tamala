@@ -44,7 +44,7 @@ const Nav = () => {
                 {link.name === "Discover" && dropdownOpen && (
                   <ul className="absolute top-full left-0 bg-white shadow-lg mt-1 w-40">
                     <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link to="#option1">The artisants</Link>
+                      <Link to="/Tamala/discover/artisants">The artisants</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-100">
                       <Link to="#option2">The crafts</Link>

@@ -6,6 +6,7 @@ export default function AboutUs() {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis placeat veniam, minus omnis laboriosam tempore accusantium esse eligendi reiciendis quidem, beatae dolorem inventore aliquid! Veniam ducimus eos voluptatibus corporis?";
   const section = "#PILLAR 1";
   const mission = "Valorize the artisanal";
+  const isForArtisant = false; 
   return (
     <div className="about-us w-full mt-20">
       <h1 className="text-5xl text-grey-200">About us</h1>
@@ -35,6 +36,7 @@ export default function AboutUs() {
           mission={mission}
           content={content}
           section={section}
+          isForArtisant= {isForArtisant}
         />
       </div>
     </div>
