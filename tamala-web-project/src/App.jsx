@@ -8,13 +8,6 @@ function App() {
     <>
       <div className="bg-white">
         <Header />
-        <div id="services">
-          <OurServices />
-        </div>
-        <div id="about">
-          <AboutUs />
-        </div>
-        <Footer />
       </div>
     </>
   );
