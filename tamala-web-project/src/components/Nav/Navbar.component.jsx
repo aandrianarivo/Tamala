@@ -47,7 +47,7 @@ const Nav = () => {
                       <Link to="/Tamala/discover/artisants">The artisants</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-100">
-                      <Link to="#option2">The crafts</Link>
+                      <Link to="/Tamala/discover/crafts">The crafts</Link>
                     </li>
                   </ul>
                 )}
