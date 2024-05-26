@@ -1,14 +1,19 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
-import Header from "./components/Nav/Header";
 import OurServices from "./components/OurServices";
-import Footer from "./components/footer/Footer";
+import Layout from "./components/Layout";
 function App() {
   return (
     <>
-      <div className="bg-white">
-        <Header />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Tamala/" element={<Layout />}>
+            <Route path="/Tamala/about" element={<AboutUs />} />
+            <Route path="/Tamala/services" element={<OurServices />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
