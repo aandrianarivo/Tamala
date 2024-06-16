@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   let Links = [
-    { name: "Discover", link: "/" },
+    { name: "Discover", link: "/Tamala" },
     { name: "About", link: "about" },
     { name: "Our service", link: "services" },
     { name: "Contact us", link: "#contact" },
