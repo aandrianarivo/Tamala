@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aandrianarivo.github.io/Tamala",
+  "homepage": "http://aandrianarivo.github.io/Tamala",
   "name": "tamala-web-project",
   "private": true,
   "version": "0.0.0",
@@ -10,6 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
+    "serve": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
